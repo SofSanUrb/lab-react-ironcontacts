@@ -7,6 +7,53 @@
   pointer-events: none;
 }
 
+.contact-picture {
+  width: 100px;
+  height:auto;
+}
+
+.container{
+  margin: auto;
+  max-width: 400px;
+}
+
+.col2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+table {
+  margin: 50px
+}
+
+button {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+  
+  font-weight: 600;
+}
+
+.btn-right {
+  margin-left: 10px;
+}
+
+thead {
+  background-color: black;
+  color:white;
+}
+
+tr button {
+  /* margin:0px; */
+  vertical-align:center;
+  border:none;
+  background-color: red;
+  color:white;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
